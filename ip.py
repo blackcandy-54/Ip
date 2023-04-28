@@ -8,8 +8,8 @@ def get_ip_address():
 # Telegram Bot code to send the IP address to a chat
 import telegram
 
-bot_token = '6044349131:AAEe2vJF5K5ehytiMP9i4aPVPQi_yX0Sg_8'
-chat_id = '1345158291'
+bot_token = ''
+chat_id = ''
 
 bot = telegram.Bot(token=bot_token)
 ip_address = get_ip_address()
