@@ -6,7 +6,7 @@ def get_ip_address():
     return ip_address
 
 # Telegram Bot code to send the IP address to a chat
-import telegram
+import pyrogram
 
 bot_token = ''
 chat_id = ''
